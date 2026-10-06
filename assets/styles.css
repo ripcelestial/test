@@ -66,4 +66,6 @@ ul li a:hover{
     background-color: orangered;
     box-shadow: 5px 5px 50px black;
     padding: 10px 20px;
+    margin-left: 10px;
+    padding-radius: 10px;
 }
