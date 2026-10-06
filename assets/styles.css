@@ -65,8 +65,5 @@ ul li a{
 ul li a:hover{
     background-color: orangered;
     box-shadow: 5px 5px 50px black;
-    margin-top: 20px;
-    margine-bottom: 20px;
-    margine-left: 20px;
-    margine-right: 20px;
+    padding: 10px 20px;
 }
