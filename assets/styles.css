@@ -33,3 +33,16 @@
     padding-top: 10px;
     float: left;
 }
+
+.menu{
+    width: 400px;
+    height: 40px;
+    float: left;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
