@@ -59,7 +59,7 @@ ul li a{
     color: #fff;
     font-family: Arial;
     font-weight: bold;
-    transition: 0.4s ease-in -out;
+    transition: 0.4s ease-in-out;
 }
 
 ul li a:hover{
@@ -67,5 +67,21 @@ ul li a:hover{
     box-shadow: 5px 5px 50px black;
     padding: 10px 20px;
     margin-left: 10px;
-    padding-radius: 10px;
+    border-radius: 10px;
+}
+
+main section{
+    min-height: 60vh;
+    padding: 48px 8%;
+    scroll-margin-top: 16px;
+}
+
+main section:nth-child(odd){
+    background: #f3f3f3;
+    color: #222;
+}
+
+main section:nth-child(even){
+    background: #222;
+    color: #fff;
 }
